@@ -109,7 +109,7 @@ else
 end
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
-    if input.KeyCode == Enum.KeyCode.H and not gameProcessed then -- Change Enum.KeyCode.H to another key if you want to, e.g. Enum.KeyCode.P for "P" Key.
+    if input.KeyCode == Enum.KeyCode.H and not gameProcessed then
         mainFrame.Visible = not mainFrame.Visible
     end
 end)
